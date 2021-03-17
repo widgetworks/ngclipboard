@@ -1,6 +1,6 @@
 {
     "name": "ngclipboard",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "Angularjs directive for clipboard.js",
     "keywords": [
         "ngclipboard",
@@ -29,9 +29,9 @@
         "test": "grunt"
     },
     "dependencies": {
-        "clipboard": "^2.0.0"
+        "clipboard": "git@github.com:widgetworks/clipboard.js.git#v2.0.6"
     },
-    "peerDependencies": {
+    "disabledDependencies": {
         "angular": "^1.2.0"
     },
     "devDependencies": {

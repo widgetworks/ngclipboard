@@ -7,7 +7,6 @@
         "Sachin N <sachi77n@gmail.com>"
     ],
     "description": "Angularjs directive for clipboard.js",
-    "main": "dist/ngclipboard.js",
     "keywords": [
         "ngclipboard",
         "copy",
@@ -16,6 +15,9 @@
         "angularjs"
     ],
     "dependencies": {
+        "clipboard": "git@github.com:widgetworks/clipboard.js.git#v2.0.6"
+    },
+    "disabledDependencies": {
         "clipboard": "^2.0.0",
         "angular": "^1.2.0"
     },
