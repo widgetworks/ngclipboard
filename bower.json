@@ -14,7 +14,7 @@
         "angularjs"
     ],
     "dependencies": {
-        "clipboard": "git@github.com:widgetworks/clipboard.js.git#v2.0.6"
+        "clipboard": "git@github.com:widgetworks/clipboard.js.git#v3.0.0"
     },
     "disabledDependencies": {
         "clipboard": "^2.0.0",
